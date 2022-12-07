@@ -1,0 +1,6 @@
+﻿@using TheModel
+@{
+    var theModel = ViewData["MasterLayoutModel"] as MasterViewModel;
+}
+<h1>Master Model: @theModel?.Name</h1>
+@RenderBody()
