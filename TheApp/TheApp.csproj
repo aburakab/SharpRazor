@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\SharpRazorEngine.csproj" />
+    <ProjectReference Include="..\SharpRazorEngine\SharpRazorEngine.csproj" />
     <ProjectReference Include="..\TheViews\TheViews.csproj" />
   </ItemGroup>
 
